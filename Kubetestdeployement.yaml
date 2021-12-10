@@ -17,7 +17,7 @@ spec:
         "beta.kubernetes.io/os": linux
       containers:
       - name: fams-cms-spa
-        image: pgncontainerregistry.azurecr.io/pgnacrimage:latest
+        image: pgncontainerregistry.azurecr.io/prajeeshgnair67/azurekube:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
